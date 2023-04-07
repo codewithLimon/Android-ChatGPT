@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#002C28">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:layout_above="@id/bottom_layout"
+        />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/semibold"
+        android:gravity="center"
+        android:text="Welcome to ChatGPT"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/limitaion"
+        android:text="Limitations:"
+        android:gravity="center"
+        android:layout_below="@+id/welcome_text"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/iphone_bold"
+        android:layout_marginBottom="30dp"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/limitaionPoints"
+        android:text="May occasionally generate incorrect information\n\nMay occasionally produce harmful instructions or biased content\n\nLimited knowledge of world and events after 2021\n\nCan't memorize previous message or session"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/limitaion"
+        android:textColor="@color/white"
+        android:fontFamily="@font/iphone"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/example"
+        android:text="Examples:"
+        android:gravity="center"
+        android:layout_below="@+id/limitaionPoints"
+        android:textColor="#009688"
+        android:fontFamily="@font/iphone_bold"
+        android:layout_marginBottom="30dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/examplePoints"
+        android:text="Explain quantam computing in simple terms \n\nGot any creative ideas for a 10 year old's birthday?\n\nHow do I make an HTTP request in Java? \n\nGive me sample Java code to print Hello world"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/example"
+        android:textColor="@color/white"
+        android:fontFamily="@font/iphone"
+        android:paddingLeft="25dp"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/bottom_layout"
+        android:background="@color/status_bar_color"
+        >
+
+        <EditText
+            android:textSize="15sp"
+            android:id="@+id/message_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/iphone"
+            android:hint="  Send a message..."
+            android:padding="16dp"
+            android:layout_marginRight="10dp"
+            android:textColorHint="@color/gray" />
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/send_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:src="@drawable/baseline_send_24"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
