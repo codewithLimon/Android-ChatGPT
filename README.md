@@ -1,14 +1,39 @@
-# Android_ChatGPT
-This repository contains the source code for a chat application that uses the OpenAI API and OkHttp for API integration. The app allows users to chat with an AI model that uses OpenAI's GPT-3 language model to generate responses. Untitled design
-![Untitled design](https://user-images.githubusercontent.com/60041910/218378637-adf9bcbf-5c7e-4274-8491-1ebe2a28b396.gif)
+# Android-ChatGPT
 
+Android-ChatGPT is an Android application that uses OpenAI's GPT (Generative Pre-trained Transformer) to generate human-like responses to users' messages. The app provides a conversational interface to interact with GPT and get answers to various questions.
 
-Features
+## Features
 
-Chat with an AI model using OpenAI's GPT-3 language model OkHttp used for API integration Simple and user-friendly interface Requirements
+- Simple and intuitive user interface
+- Uses OpenAI's GPT to generate human-like responses
+- Can handle various types of questions
+- Offers suggestions for follow-up questions
 
-To run this app, you need: An OpenAI API key Android Studio or any other Android development environment A device or emulator running Android 4.4 or higher Getting Started
+## Requirements
 
-Open the project in Android Studio. Replace YOUR_API_KEY in the MainActivity.java file with your own OpenAI API key. Build and run the app on an Android device or emulator. Contributing
+- Android 7.0 or higher
+- Internet connectivity
 
-If you want to contribute to this project, feel free to create a pull request. Any contributions are welcome!
+## Installation
+
+1. Go to releases
+2. Open Android-ChatGPT-1.0 (Latest till now)
+3. Scroll down and click on assets
+4. Click on chatgpt-version-1.0.apk to download
+5. Open the file where you downloaded
+6. Install the file (If play protect gives any warning, just ignore it)
+
+## Usage
+
+1. Open the app
+2. Click on Let's Go button
+3. Start sending message to the bot, it will respond asap!
+Have fun!
+
+## Contributions
+
+Contributions are welcome! If you find a bug or have an idea for a new feature, please open an issue or submit a pull request.
+
+## Contact Info
+Contact [codewithLimon](https://github.com/codewithLimon) for more information.
+
