@@ -12,7 +12,7 @@ import okhttp3.Response;
 
 public class Api extends MainActivity{
 
-    private static final String OPENAI_API_KEY = "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";
+    private static final String OPENAI_API_KEY = "API_KEY";
 
     public void api_call(String userMessage, final ApiCallback callback) {
         new AsyncTask<String, Void, String>() {
