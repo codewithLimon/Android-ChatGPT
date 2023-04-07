@@ -37,3 +37,6 @@ Contributions are welcome! If you find a bug or have an idea for a new feature, 
 ## Contact Info
 Contact [codewithLimon](https://github.com/codewithLimon) for more information.
 
+
+## Appologies for minor bugs, as it is my first android project
+
