@@ -17,9 +17,9 @@ Android-ChatGPT is an Android application that uses OpenAI's GPT (Generative Pre
 ## Installation
 
 1. Go to releases
-2. Open Android-ChatGPT-1.1 (Latest till now)
+2. Open Android-ChatGPT-1.3 (Latest till now)
 3. Scroll down and click on assets
-4. Click on chatgpt-version-1.1.apk to download
+4. Click on chatgpt-version-1.3.apk to download
 5. Open the file where you downloaded
 6. Install the file (If play protect gives any warning, just ignore it and click install anyway)
 
